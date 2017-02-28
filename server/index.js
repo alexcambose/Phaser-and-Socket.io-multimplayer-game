@@ -13,9 +13,6 @@ app.use('/',express.static(config.publicDir));
 const players = require('./players.js');
 
 io.on('connection', socket => {
-	const randomColor = Math.floor(Math.random() * 6) + 1;
-
-
 	players.add(socket.id); console.log(`${socket.id} added`);
 	io.emit('server:player-added',players.get(socket.id));
 
