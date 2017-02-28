@@ -8,4 +8,4 @@ A simple [Phaser](https://phaser.io/) and [Socket.io](http://socket.io/) game ba
 - `npm run wbp` to compile everything into bundle.js
 
 
-#####Let me know what you think!
+#####Let me know what you think! :smile:
