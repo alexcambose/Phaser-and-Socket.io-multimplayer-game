@@ -1,0 +1,28 @@
+{
+  "name": "socketio_multiplayer_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "svdev": "./node_modules/.bin/nodemon --exec \"node server/index.js\" --watch server",
+    "sv": "node server/index.js",
+    "wbp": "./node_modules/.bin/webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "nodemon": "^1.11.0",
+    "phaser": "^2.6.2",
+    "script-loader": "^0.7.0",
+    "socket.io-client": "^1.7.3",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "socket.io": "^1.7.3"
+  }
+}
