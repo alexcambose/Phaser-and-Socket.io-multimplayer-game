@@ -1,4 +1,4 @@
-# Socket.io-and-Phaser-multimplayer-game :video_game:
+# Phaser and Socket.io multimplayer game :video_game:
 
 A simple [Phaser](https://phaser.io/) and [Socket.io](http://socket.io/) game based on websockets for multiplayer support
 ##Getting started
